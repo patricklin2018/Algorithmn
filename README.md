@@ -4,3 +4,4 @@
 |---|---|---|---|
 |03|二维数组中的查找|ary|[link](/Sword_Points_Offer/No03)|
 |04|替换空格|string|[link](/Sword_Points_Offer/No04)|
+|05|从尾到头打印链表|list|[link](/Sword_Points_Offer/No05)|
