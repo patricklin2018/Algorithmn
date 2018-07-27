@@ -14,24 +14,26 @@
 [代码-JAVA](Solution.java)
 
 ```java
-public int Fibonacci(int n) throws Exception {
-    if (n < 0) {
-        throw new Exception("输入的 n 有误");
-    }
-    else if (n == 0) {
-        return 0;
-    }
-    else if (n == 1) {
-        return 1;
-    }
+public class Solution {
+    public int Fibonacci(int n)  throws Exception {
+        if (n < 0) {
+            throw new Exception("输入的 n 有误");
+        }
+        else if (n == 0) {
+            return 0;
+        }
+        else if (n == 1) {
+            return 1;
+        }
 
-    int preTwo = 0, preOne = 1, res = 0;
-    for (int i = 2; i <= n; ++i) {
-        res = preOne + preTwo;
-        preTwo = preOne;
-        preOne = res;
+        int preTwo = 0, preOne = 1, res = 0;
+        for (int i = 2; i <= n; ++i) {
+            res = preOne + preTwo;
+            preTwo = preOne;
+            preOne = res;
+        }
+        
+        return res;
     }
-
-    return res;
 }
 ```
