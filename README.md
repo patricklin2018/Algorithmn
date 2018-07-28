@@ -12,3 +12,6 @@
 |10|跳台阶|dp、math|[link](/code/No10)|
 |11|变态跳台阶|dp、math|[link](/code/No11)|
 |12|矩形覆盖|dp、math|[link](/code/No12)|
+|13|二进制中 1 的个数|math|[link](/code/No13)|
+|14|数值的整数次方|math|[link](/code/No14)|
+|15|调整数组顺序使奇数位于偶数前面|ary|[link](/code/No15)|
