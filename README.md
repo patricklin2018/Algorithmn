@@ -21,3 +21,4 @@
 |19|树的子结构|binary tree|[link](/code/No19)|
 |20|二叉树的镜像|binary tree|[link](/code/No20)|
 |21|顺时针打印矩阵|ary,matrix|[link](/code/No21)|
+|22|包含 min 函数的栈|stack|[link](/code/No22)|

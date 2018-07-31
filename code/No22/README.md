@@ -1,17 +1,20 @@
-package No22;
+## 22 - 包含 min 函数的栈
 
-import java.util.Stack;
+### 题目描述
 
-/**
- * @Author: patrick-mac
- * @Date: 2018/7/31 23:25
- * @Description:
- *
- * 剑指 offer - 22 包含 min 函数的栈
- *
- * 定义栈的数据结构，请在该类型中实现一个能够得到栈中所含最小元素的 min 函数（时间复杂度应为O（1））。
- *
- */
+定义栈的数据结构，请在该类型中实现一个能够得到栈中所含最小元素的 min函数（时间复杂度应为`O（1）`）。
+
+### 思路
+
+用两个栈，一个栈正常存储，另一个栈在存储压栈过程中每个当前最小值。
+
+即，数据存储压栈时，如果为最小值，同时压进第二个栈。
+
+出栈时，需要检查该值是否为最小值，如果是，第二个栈也要出栈。
+### 代码
+[代码-JAVA](Solution.java)
+
+```java
 public class Solution {
 
     // 正常存储
@@ -41,3 +44,4 @@ public class Solution {
         return stack2.peek();
     }
 }
+```
