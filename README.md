@@ -24,3 +24,4 @@
 |22|包含 min 函数的栈|stack|[link](/code/No22)|
 |23|栈的压入、弹出顺序|stack|[link](/code/No23)|
 |24|从上往下打印二叉树|queue、binary tree|[link](/code/No24)|
+|25|二叉搜索树的后序遍历序列|binary search tree|[link](/code/No25)|
