@@ -25,3 +25,4 @@
 |23|栈的压入、弹出顺序|stack|[link](/code/No23)|
 |24|从上往下打印二叉树|queue、binary tree|[link](/code/No24)|
 |25|二叉搜索树的后序遍历序列|binary search tree|[link](/code/No25)|
+|26|二叉树中和为某一值的路径|binary tree|[link](/code/No26)|
