@@ -28,3 +28,4 @@
 |26|二叉树中和为某一值的路径|binary tree|[link](/code/No26)|
 |27|复杂链表的复制|linked list|[link](/code/No27)|
 |28|二叉搜索树与双向链表|binary search tree、linked list|[link](/code/No28)|
+|29|字符串的排列|permutation、string|[link](/code/No29)|
