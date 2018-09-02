@@ -6,7 +6,7 @@
 
 ### 思路
 
-以 `node1 -> node2 -> node3 -> null` 为例，反转过程如下所示：
+设置一个临时指针，记住下下个节点，操作当前节点和下一个节点，如此往复。以 `node1 -> node2 -> node3 -> null` 为例，反转过程如下所示：
 
 ```java
 1. null <- node1 node2 -> node3 -> null
@@ -22,6 +22,9 @@
 ```
 
 ### 代码
+
+#### 1. 非递归方法
+
 [代码-JAVA](Solution.java)
 
 ```java
@@ -39,6 +42,31 @@ public class Solution {
             head = tmp;
         }
         return lst;
+    }
+}
+```
+
+#### 2. 递归方法
+```java
+public class Solution {
+    public ListNode ReverseList(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        
+        return ReverseList(head, null);  
+    }
+    
+    public ListNode ReverseList(ListNode ptr, ListNode lst) {
+        if (ptr.next == null) {
+            ptr.next = lst;
+            return ptr;
+        }
+        else {
+            ListNode head = ReverseList(ptr.next, ptr);
+            ptr.next = lst;
+            return head;
+        }
     }
 }
 ```
