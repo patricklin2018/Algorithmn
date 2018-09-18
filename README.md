@@ -35,3 +35,4 @@
 |33|整数中 1 出现的次数|math|[link](/code/No33)|
 |34|把数组排成最小的数|ary, string, math|[link](/code/No34)|
 |35|丑数|ary, math|[link](/code/No35)|
+|36|第一个只出现一次的字符|string|[link](/code/No36)|
