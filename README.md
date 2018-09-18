@@ -32,3 +32,4 @@
 |30|数组中出现次数超过一半的数字|ary|[link](/code/No30)|
 |31|最小的 k 个数|ary|[link](/code/No31)|
 |32|连续子数组的最大和|dp|[link](/code/No32)|
+|33|整数中 1 出现的次数|math|[link](/code/No33)|
